@@ -1,0 +1,38 @@
+ a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    font-weight: 600;
+}
+.footer ul{
+    display: flex;flex-direction: column;
+}
+.bgc{
+    background-color: #F0F0F0;
+    padding: 50px 0px;
+
+}
+
+
+.inputDiv{
+    border: 1.2px solid #000;
+    outline: 1.2px solid #000;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.inputDiv input{
+    border: none;
+    outline :none;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.inputDiv button{
+    background-color: #000;
+    color: #F0F0F0;
+    padding: 2px 10px;
+    border-radius: 20px;
+    
+}

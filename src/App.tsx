@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./components/Home/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Screen from "./components/Screen/Screen";
+import Screen2 from "./components/Screen2/Screen2";
+import Screen3 from "./components/Screen3/Screen3";
+import Screen4 from "./components/Screen4/Screen4";
+import Screen5 from "./components/Screen5/Screen5";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div style={{
+    overflowX: 'hidden'
+   }}>
+      <Navbar />
+      <Home/>
+      <Screen />
+      <Screen2/>
+      <Screen3/>
+      <Screen4/>
+      <Screen5/>
+      <Footer/>
+   </div>
   );
 }
 
